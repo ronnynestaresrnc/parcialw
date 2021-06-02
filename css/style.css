@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+
+.banner{
+    background-repeat: no-repeat;
+    background-size:  100% 100vh;
+    
+   
+}
+body{
+    font-family: Nunito,sans-serif !important;
+   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.banner__body{
+   text-align: left;
+}
+.banner__body h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.banner__body p{
+    font-size: 21px ;
+}
+.banner__body button{
+    font-size: 16px ;
+}
+ .get-contact > a{
+     color: black;
+     font-weight: bolder;
+     font-size: 28px;
+    text-decoration: none;
+     border-bottom: 1.5px rgb(241, 161, 161) solid;
+ }
+ .hero-tile{
+     font-size: 33px;
+ }
+ .hero-body{
+    
+     font-size: 17px;
+ }
+
+ .hero-content ul {
+    list-style: none !important;
+  }
+  .hero-content ul li {
+      font-size: 18px;
+      text-decoration: none;
+   margin-bottom:10px;
+  }
+  .hero-content ul li a {
+      text-decoration: none;
+      color: rgb(73, 71,  91);
+    margin-bottom:10px;
+   }
+  
+  .hero-content ul li::before {
+    content: "\2022" !important;  
+    color: red !important; 
+    font-weight: bold !important; 
+    display: inline-block !important; 
+    width: 1em !important;
+    margin-left: -1em !important; 
+  }
